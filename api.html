@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="api.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+
+</head>
+
+<body>
+
+    <header class="header_titulo"> 
+
+        <div class="div_titulo">
+
+            <img src="poke.png" alt="">
+            <h1>POKEMON</h1>
+            <img src="poke.png" alt="">
+
+        </div>
+
+        <div class="div_filtrados">
+
+            <input type="text" name="id_pokemon" id="id_pokemon" placeholder="Buscar por nombre...">
+            <button onclick="ordenarNombre()">Ordenar por Nombre</button>
+            
+        </div>
+
+        <div class="div_tipos">
+            
+            <button class="boton class_normal" onclick="filtrarPorTipo('normal')">normal</button>
+
+            <button class="boton class_fighting" onclick="filtrarPorTipo('fighting')">fighting</button>
+
+            <button class="boton class_flying" onclick="filtrarPorTipo('flying')">flying</button>
+
+            <button class="boton class_poison" onclick="filtrarPorTipo('poison')">poison</button>
+
+            <button class="boton class_ground" onclick="filtrarPorTipo('ground')">ground</button>
+
+            <button class="boton class_rock" onclick="filtrarPorTipo('rock')">rock</button>
+
+            <button class="boton class_bug" onclick="filtrarPorTipo('bug')">bug</button>
+
+            <button class="boton class_ghost" onclick="filtrarPorTipo('ghost')">ghost</button>
+
+            <button class="boton class_steel" onclick="filtrarPorTipo('steel')">steel</button>
+
+            <button class="boton class_fire" onclick="filtrarPorTipo('fire')">fire</button>
+
+            <button class="boton class_water" onclick="filtrarPorTipo('water')">water</button>
+
+            <button class="boton class_grass" onclick="filtrarPorTipo('grass')">grass</button>
+
+            <button class="boton class_electric" onclick="filtrarPorTipo('electric')">electric</button>
+
+            <button class="boton class_psychic" onclick="filtrarPorTipo('psychic')">psychic</button>
+
+            <button class="boton class_ice" onclick="filtrarPorTipo('ice')">ice</button>
+
+            <button class="boton class_dragon" onclick="filtrarPorTipo('dragon')">dragon</button>
+
+            <button class="boton class_dark" onclick="filtrarPorTipo('dark')">dark</button>
+
+            <button class="boton class_fairy" onclick="filtrarPorTipo('fairy')">fairy</button>
+
+            <button class="boton class_unknown" onclick="filtrarPorTipo('unknown')">unknown</button>
+            
+            <button class="boton class_shadow" onclick="filtrarPorTipo('shadow')">shadow</button>
+
+        </div>
+
+        <!--<div class="div_select">
+
+            <select id="tipo_pokemon" onchange="filtrarPorTipo()">
+                <option value="">Todos</option>
+                <option value="fire">Fuego</option>
+                <option value="water">Agua</option>
+            </select>
+
+        </div>-->
+
+    </header>
+    
+    <div class="div_botones">
+
+        <button id="anterior">Anterior</button>
+        <button id="siguiente">Siguiente</button>
+        
+    </div>
+
+    <section class="seccion_general">
+
+        
+
+    </section>
+
+    <script src="api.js"></script>
+
+</body>
+</html>
